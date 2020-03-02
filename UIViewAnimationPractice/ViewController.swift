@@ -68,26 +68,13 @@ class ViewController: UIViewController {
         
     }
     
-    
-    
     func resetMove () {
-        
-        
+     
         UIView.animate(withDuration: 1) {
             self.block.center = CGPoint(x: self.view.center.x, y: self.view.center.y)
             
         }
-        
     }
-    
-    
-    
-    
-    
-  
-        
-
-
 
 }
 
